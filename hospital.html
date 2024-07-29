@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <img src="pics/d13.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help Desk</a></li>
+        </ul>
+        <a href="#" class="register-btn">Sign In</a>
+        <i class="bi bi-list" onclick="togglebtn()"></i>
+    </nav>
+    <div class="hospital-details">
+        <div class="hospital-title">
+            <h1>Banglore Branch</h1>
+            <div class="row">
+                <div>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <span>2484 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: Banglore, Karnataka, India</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="pics/h1.jpg"></div>
+            <div><img src="pics/h2.jpg"></div>
+            <div><img src="pics/h3.jpg"></div>
+            <div><img src="pics/h4.jpg"></div>
+            <div><img src="pics/h5.jpg"></div>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Doctors</label>
+                <p>380</p>
+            </div>
+            <div>
+                <label>Nurses</label>
+                <p>458</p>
+            </div>
+            <div>
+                <label>Patients</label>
+                <p>1558</p>
+            </div>
+        </form>
+        <ul class="details-list">
+            <li><i class="bi bi-wrench"></i>Diagnostic Equipment
+                <span>We use of advanced diagnostic tools like MRI machines, CT scanners, and X-ray machines.</span>
+            </li>
+            <li>Surgical Equipment
+                <span>We use advanced surgical instruments and technology, such as robotic surgery systems.</span>
+            </li>
+            <li><i class="bi bi-display"></i>Monitoring Equipment
+                <span>High-quality patient monitoring systems for vital signs and critical care.</span>
+            </li>
+            <li><i class="bi bi-heart-pulse"></i>Therapeutic Equipment
+                <span>Comprehensive services covering various medical specialties.</span>
+            </li>
+            <li><i class="bi bi-tools"></i>Range of Services
+                <span>We use of advanced diagnostic tools like MRI machines, CT scanners, and X-ray machines.</span>
+            </li>
+            <li><i class="bi bi-clipboard2-pulse"></i>Innovative Treatments
+                <span>Access to cutting-edge treatments and clinical trials.</span>
+            </li>
+            <li><i class="bi bi-hospital"></i>Emergency Services
+                <span>Well-equipped emergency department with quick response times.</span>
+            </li>
+            <li><i class="bi bi-lungs"></i>ICU and NICU
+                <span>Intensive Care Units (ICU) and Neonatal Intensive Care Units (NICU) for critical care.</span>
+            </li>
+            <li><i class="bi bi-person-square"></i>Patient Rooms
+                <span>Comfortable and private patient rooms with modern amenities.</span>
+            </li>
+            <li><i class="bi bi-capsule"></i>Pharmacy
+                <span>In-house pharmacy for easy access to medications.</span>
+            </li>
+            <li><i class="bi bi-capsule-pill"></i>Rehabilitation Services
+                <span>hysical therapy, occupational therapy, and other rehabilitation services.</span>
+            </li>
+            <li><i class="bi bi-virus2"></i>Laboratory Services
+                <span>On-site laboratory for quick test results.</span>
+            </li>
+            <li><i class="bi bi-crosshair"></i>Location
+                <span>Center of the city and easy to commute by any transport means.</span>
+            </li>
+            <li><i class="bi bi-car-front-fill"></i>Transportation
+                <span>Availability of hospital transportation services and nearby public transport.</span>
+            </li>
+            <li><i class="bi bi-bandaid-fill"></i>Insurance Coverage
+                <span>Acceptance of the patient’s health insurance plan.</span>
+            </li>
+            <li><i class="bi bi-cash"></i>Cost Transparency
+                <span>Clear information on treatment costs and billing procedures.</span>
+            </li>
+            <li><i class="bi bi-virus"></i>Infection Control
+                <span>Strong infection prevention and control measures.</span>
+            </li>
+            <li><i class="bi bi-person-lines-fill"></i>Patient Outcomes
+                <span>Track record of patient outcomes and recovery rates.</span>
+            </li>
+            <li><i class="bi bi-person-check-fill"></i>Patient Support Services
+                <span>Availability of counseling, social work, and support groups.</span>
+            </li>
+            <li><i class="bi bi-person-hearts"></i>Hospital Culture
+                <span>Friendly staff and always open to communication. Patient wellbeing is our first piority</span>
+            </li>
+            <li><i class="bi bi-hourglass"></i>No Waiting Times
+                <span>Efficiency in scheduling appointments and minimizing wait times.</span>
+            </li>
+        </ul>
+        <hr class="line">
+        <p class="hospital-description">We are here for all your needs!</p>
+        <hr class="line">
+        <div class="map">
+            <h3>Location on Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1155.9941578175194!2d77.65353497322737!3d12.953582259347835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU3JzExLjQiTiA3N8KwMzknMTQuOCJF!5e0!3m2!1sen!2sin!4v1722168451981!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>Banglore, Karnataka, India</b>
+        </div>
+    </div>
+    <hr class="line">
+    
+    <div class="host">
+        <h1>Customer Service</h1>
+        <div class="host1">
+            <img src="pics/p1.jpg">
+            <div>
+                <h2>Brenda</h2>
+                <p><span>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp;&nbsp; Response rate 100% &nbsp; &nbsp; Response time: 2 min</p>
+                <a href="#" class="contact-host">Contact</a>
+            </div>
+        </div>
+        <div class="host1">
+            <img src="pics/p5.jpg">
+            <div>
+                <h2>Brandon</h2>
+                <p><span>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>&nbsp; &nbsp; 213 reviews &nbsp;&nbsp; Response rate 100% &nbsp; &nbsp; Response time: 2 min</p>
+                <a href="#" class="contact-host">Contact</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="footer">
+                <a href="https://facebook.com/"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+                <a href="https://reddit.com/"><i class="bi bi-reddit"></i></a>
+                <a href="https://quora.com/"><i class="bi bi-quora"></i></a>
+                <hr>
+                <p>Copyright © 2024, Triny Christopher</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+</body>
+</html>

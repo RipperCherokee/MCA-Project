@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palm Tree Hosital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <img src="pics/d13.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help Desk</a></li>
+        </ul>
+        <a href="#" class="register-btn">Sign In</a>
+        <i class="bi bi-list" onclick="togglebtn()"></i>
+    </nav>
+<div class="container">
+    <div class="list-container">
+        <div class="left-col">
+            <h1>Ward Options</h1>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w1.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>General Ward</h3>
+                    <p>6 sharing<br>2 Bathrooms<br>Only 1 visitor per patient allowed</p>
+                    <div class="ward-price">
+                        <h4>₹500<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w2.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>Four Sharing</h3>
+                    <p>4 sharing<br>2 Bathrooms<br>Only 1 visitor per patient allowed<br>Wifi</p>
+                    <div class="ward-price">
+                        <h4>₹700<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w4.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>Two Sharing</h3>
+                    <p>2 sharing<br>1 Bathrooms<br>Max 2 visitors per patient allowed<br>Wifi</p>
+                    <div class="ward-price">
+                        <h4>₹900<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w7.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>Two Sharing(Delux)</h3>
+                    <p>2 sharing<br>2 Bathrooms<br>Max 3 visitors per patient allowed<br>Wifi<br>TV<br>Air conditioning</p>
+                    <div class="ward-price">
+                        <h4>₹1200<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w5.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>Single Bed</h3>
+                    <p>Single Sharing<br>1 Bathroom<br>Max 3 visitor allowed<br>Wifi<br>TV<br>Air conditioning</p>
+                    <div class="ward-price">
+                        <h4>₹1500<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ward">
+                <div class="ward-img">
+                    <img src="pics/w5.jpg">
+                </div>
+                <div class="ward-info">
+                    <h3>VIP Room</h3>
+                    <p>Single Sharing<br>1 Bathroom<br>Unlimited visitors<br>Wifi<br>TV<br>Air conditioning<bd>Mini fridge<br>Cupboard<br>Kitchen<br>Sitting area</bd></p>
+                    <div class="ward-price">
+                        <h4>₹1500<span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-col">
+            <div class="sidebar">
+                <h2>Select Filters</h2>
+                <h3>Sharing Type</h3>
+                <div class="filter">
+                    <input type="checkbox"> <p>Single</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Two</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Four</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Six</p><span>(0)</span>
+                </div>
+                <h3>Amenities</h3>
+                <div class="filter">
+                    <input type="checkbox"> <p>Wifi</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Balcony</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Air Conditioning</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>TV</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Cupboard</p><span>(0)</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox"> <p>Kitchen</p><span>(0)</span>
+                </div>
+
+                <div class="sidebar-link">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#"><i class="bi bi-caret-left-fill"></i></a>
+        <span class="current">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>&middot;&middot;&middot;&middot;</span>
+        <span>20</span>
+        <a href="#"><i class="bi bi-caret-right-fill"></i></a>
+    </div>
+    <div class="footer">
+        <a href="https://facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+        <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+        <a href="https://reddit.com/"><i class="bi bi-reddit"></i></a>
+        <a href="https://quora.com/"><i class="bi bi-quora"></i></a>
+        <hr>
+        <p>Copyright © 2024, Triny Christopher</p>
+    </div>
+</div>
+<script>
+    var navBar = document.getElementById("navBar");
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu")
+    }
+</script>
+</body>
+</html>
