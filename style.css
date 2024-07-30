@@ -578,3 +578,54 @@ font-size: 12px;
     border: 1px solid #64cdaa;
     border-radius: 8px;
 }
+/*---media query hospital details page---*/
+@media only screen and (max-width: 700px){
+    .hospital-details{
+        margin-top: 150px;
+    }
+    .row p{
+        margin-top: 10px;
+    }
+    .gallery{
+        grid-template-areas: 'first first' '. .' '. .';
+    }
+    .check-form{
+        padding: 10px 30px;
+    }
+    .check-form div{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+    .contact-host{
+        margin: 40px 0;
+    }
+}
+/*-------for about-------*/
+.about-header {
+    padding: 20px 20px;
+}
+.about-header h1 {
+    margin: 0;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.about-us {
+    padding: 12% 12%;
+    background: #f4f4f4;
+}
+
+.about-us h2 {
+    color: #0bb4ca;
+    margin-top: 40px;
+}
+
+.about-us p {
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #333;
+}
