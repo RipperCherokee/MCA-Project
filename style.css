@@ -606,7 +606,7 @@ font-size: 12px;
 }
 /*-------for about-------*/
 .about-header {
-    padding: 20px 20px;
+    padding: 40px 50px;
 }
 .about-header h1 {
     margin: 0;
@@ -615,7 +615,7 @@ font-size: 12px;
 }
 
 .about-us {
-    padding: 12% 12%;
+    padding: 6% 12%;
     background: #f4f4f4;
 }
 
@@ -628,4 +628,61 @@ font-size: 12px;
     line-height: 1.6;
     margin: 20px 0;
     color: #333;
+}
+@media only screen and (max-width: 768px) {
+    .about-header h1{
+        padding-top: 30%;
+        font-size: 30px;
+    }
+}
+/*--------login page---------*/
+.navbar-white h1{
+    color: #fff;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #0bb4ca;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: #0bb4ca;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
 }
