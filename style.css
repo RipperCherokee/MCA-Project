@@ -686,3 +686,86 @@ font-size: 12px;
     cursor: pointer;
     width: 100%;
 }
+/*-----Parallax-------*/
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-bg {
+    background-image: url('pics/d1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.parallax-bg-2 {
+    background-image: url('pics/d2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.parallax-content {
+    text-align: center;
+    color: #333;
+    padding-top: 20%;
+}
+
+.content-section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.content-section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 30px;
+}
+
+
+.schedule {
+    text-decoration: none;
+    background-color: #64cdaa;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.schedule:hover {
+    background-color:
+}
+@media only screen and (Max-width:700px){
+    .parallax-content{
+        padding-top: 330px;
+    }
+}
